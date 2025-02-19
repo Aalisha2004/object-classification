@@ -56,7 +56,7 @@ def main():
         processed_image, detected_objects = detect_objects(image, model)
         
         #st.markdown("### 🎯 Detected Objects")
-        st.image(processed_image, caption="Detected Objects", use_column_width=True)
+        st.image(processed_image, caption="Detected Objects")
         
         if detected_objects:
             st.markdown("### 📋 Detection Results")
